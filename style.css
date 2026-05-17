@@ -1,0 +1,31 @@
+/* =============================================
+   VS Code Custom CSS
+   Welcome Logo (editor watermark) override
+   ============================================= */
+
+/* Light theme */
+.monaco-workbench .part.editor > .content .editor-group-container .editor-group-watermark .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  opacity: .75;
+}
+
+/* Dark theme */
+.monaco-workbench.vs-dark .part.editor > .content .editor-group-container .editor-group-watermark .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  opacity: .75;
+}
+
+/* High Contrast Dark theme */
+.monaco-workbench.hc-black .part.editor > .content .editor-group-container .editor-group-watermark .letterpress {
+  background-image: url("https://raw.githubusercontent.com/Aikoyori/ProgrammingVTuberLogos/main/VSCode/VSCode.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  opacity: .75;
+}
